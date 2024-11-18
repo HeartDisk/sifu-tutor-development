@@ -1,0 +1,1276 @@
+a, abbr, address, area, article, aside, audio, b, base, bdi, bdo, blockquote, body, br, button, canvas, caption, cite, code, col, colgroup, data, datalist, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, head, header, hr, html, iframe, img, input, ins, kbd, label, legend, li, link, main, map, mark, menu, menuitem, meta, meter, nav, noscript, object, ol, optgroup, option, output, p, param, picture, pre, progress, q, rp, rt, s, samp, script, section, select, small, source, strong, style, sub, summary, sup, svg, table, tbody, td, template, textarea, tfoot, th, thead, time, title, tr, track, u, ul, var, video, wbr {
+     font-family: 'Poppins', sans-serif !important;
+}
+ .choices__item.choices__placeholder.choices__item--selectable {
+     font-size: 15px !important;
+     opacity: 5;
+}
+ .choices__list.choices__list--dropdown {
+     z-index: 2;
+}
+ .choices__item.choices__item--selectable {
+     font-size: 15px !important;
+}
+ .form-group.none, span.tox-statusbar__branding, .tox-promotion {
+     display: none;
+}
+ .error-message {
+     color: red !important;
+}
+ .profile-picture {
+     width: 80%;
+     margin: auto;
+     background: #ffffff;
+     box-shadow: 1px 1px 20px 0px #efefef;
+     padding: 30px;
+     border-radius: 20px;
+     align-items: center;
+     margin-bottom: 30px;
+}
+ .profile-picture img {
+     height: 130px;
+     width: 130px !important;
+     border-radius: 50%;
+     object-fit: cover;
+}
+ .user-info, .change-pass {
+     width: 80%;
+     margin: auto;
+     background: #ffffff;
+     box-shadow: 1px 1px 20px 0px #efefef;
+     padding: 30px;
+     border-radius: 20px;
+}
+ .profile-submit {
+     width: 100%;
+     margin-top: 20px;
+     font-size: 18px;
+     font-weight: 600;
+     background-color: #0d032f;
+     border: none;
+}
+ .change-pass .col-md-12 {
+     margin-bottom: 10px;
+     margin-top: 10px;
+}
+ .change-pass .col-md-12 label {
+     margin-bottom: 10px;
+}
+ .brand-logo.mb-4 {
+     text-align: center;
+}
+ .nav-tabs-shadow {
+     box-shadow: 0 .25rem 1.125rem rgba(75, 70, 92, .1) 
+}
+ input.search.form-control {
+     box-shadow: none !important;
+}
+ table.datatable-init.table.dataTable-table::-webkit-scrollbar-track {
+     border-radius: 10px;
+}
+ table.datatable-init.table.dataTable-table::-webkit-scrollbar-thumb {
+     background: #1f2937;
+     border-radius: 10px;
+}
+ button.fc-register_date-button.fc-button.fc-button-primary {
+     display: none;
+}
+ input[type="email"] {
+     margin-bottom: 20px !important;
+}
+ a.fc-col-header-cell-cushion {
+     color: #fff;
+}
+ a.fc-daygrid-day-number {
+     color: #000;
+     font-weight: 700;
+}
+ .existingCustomer, .existingStudent {
+     font-size: 16px !important;
+     font-weight: 400 !important;
+}
+ input.dataTable-input {
+     display: none 
+}
+ div.card {
+     box-shadow: none !important;
+}
+ button.btn.btn-md.btn-icon.text-light.btn-no-hover.compact-toggle {
+     display: none;
+}
+ .modal-backdrop.show {
+     display: none !important;
+}
+ input[type=date], input[type=date]:focus, input[type=datetime-local], input[type=datetime-local]:focus, input[type=email], input[type=email]:focus, input[type=number], input[type=number]:focus, input[type=password], input[type=password]:focus, input[type=search-md], input[type=search-md]:focus, input[type=search], input[type=search]:focus, input[type=tel], input[type=tel]:focus, input[type=text], input[type=text]:focus, input[type=time], input[type=time]:focus, input[type=url], input[type=url]:focus, textarea.md-textarea, textarea.md-textarea:focus{
+     border: 1px solid #d2d2d2 !important;
+}
+ .nk-content{
+     background-color:#f9f9f9 !important;
+}
+ .card{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     padding:10px !important;
+}
+ .form-control:not([type=file]):read-only{
+     background-color:#fff !important;
+}
+ .nk-menu-text{
+     font-size:14px !important;
+}
+ .form-control:not([type=file]):read-only{
+     background-color:#fff !important;
+}
+ .existingCustomer, .existingStudent {
+     font-size:16px;
+     font-weight:400;
+}
+
+ .choices__item--selectable{
+     font-size:1.3rem !important;
+     color:#000 !important;
+}
+ select {
+     display: inline-flex;
+     flex-wrap: wrap;
+     width: 100%;
+     background-color: #fff;
+     padding: 0.5625rem;
+     border: 1px solid #d2d4e4;
+     border-radius: 0.375rem;
+     font-size: .875rem;
+     min-height: 2.75rem;
+     overflow: hidden;
+}
+
+/********* CSS by Moiz ************/
+ .sifu-view-page .input-group {
+     margin-bottom: 15px !important;
+}
+ .sifu-view-page .btn-primary {
+     width: 100% !important;
+     background-color: #304bd4 !important;
+}
+.sifu-view-page .btn-primary i {
+  margin-right: 10px;
+}
+ .btn-primary {
+     color: #fff !important;
+}
+ .dtable-cbtn {
+     border-radius: 6px;
+     padding: 7px;
+     color: #fff !important;
+     display: inline-flex;
+}
+ .bt-dashboard {
+     background-color: #5b5efb;
+}
+ .bt-view {
+     background-color: #2dc58c;
+}
+ .bt-edit {
+     background-color: #f2bc16;
+}
+ .bt-delete {
+     background-color: #df3c4e;
+     padding-left: 9px;
+     padding-right: 9px;
+}
+ .bt-pay {
+     background-color: #808080;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+ .bt-download {
+     background-color: #836e27;
+     padding-left: 8px;
+     padding-right: 8px;
+}
+ .bt-copy {
+     background-color: #f6851e;
+     padding-left: 8px;
+     padding-right: 8px;
+}
+ .bt-login {
+     background-color: #a064a0;
+     padding-left: 7px;
+     padding-right: 7px;
+}
+ .bt-calender {
+     background-color: #77069c;
+     padding-left: 8px;
+     padding-right: 7px;
+}
+ .dtb-status, .dtb-vstatus, .dtb-astatus, .dtb-tcstatus, .dtb-apstatus, .dtb-vcsstatus, .tstb-status {
+     font-size: 13px;
+     color: #000;
+     border-radius: 6px;
+     padding: 3px 10px;
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     letter-spacing: 0.7px;
+     display: inline-block;
+}
+ .dtb-paid {
+     background-color: rgba(45,197,140,0.5);
+     border: 2px solid #2dc58c;
+}
+ .dtb-unpaid {
+     background-color: rgba(223,60,78,0.5);
+     border: 2px solid #df3c4e;
+}
+ .dtb-nostat {
+     background-color: rgba(128,128,128,0.5);
+     border: 2px solid #808080;
+}
+ .dtb-pending {
+     background-color: rgba(242,188,22,0.5);
+     border: 2px solid #f2bc16;
+}
+ .cclockio {
+     margin: 0;
+}
+ .cclockio .cclockin {
+     background: #eee;
+     padding: 20px;
+     margin-bottom: 10px;
+     border: 5px dashed #ddd;
+}
+ .cclockio .cclockout {
+     background: #eee;
+     padding: 20px;
+     margin-top: 10px;
+     border: 5px dashed #ddd;
+}
+ .cclockio .cclockin h6 {
+     color: #2dc58c;
+     font-size: 20px;
+     font-weight: bold !important;
+     text-transform: uppercase;
+}
+ .cclockio .cclockout h6 {
+     color: #df3c4e;
+     font-size: 20px;
+     font-weight: bold !important;
+     text-transform: uppercase;
+}
+ .cclockio .cclockin img, .cclockio .cclockout img {
+     width: 15%;
+}
+ .cclockio time {
+     color: #000;
+     font-size: 20px;
+}
+ .cclockio .cclockin a {
+     background: #2dc58c;
+     color: #fff;
+     padding: 8px 20px;
+     border-radius: 10px;
+}
+ .cclockio .cclockout a {
+     background: #df3c4e;
+     color: #fff;
+     padding: 8px 20px;
+     border-radius: 10px;
+}
+ .cclockio .cclockin .col-12, .cclockio .cclockout .col-12 {
+     padding: 15px;
+}
+ .dtable-status-active {
+     font-size: 13px;
+     background-color: rgba(45,197,140,0.5);
+     border: 2px solid #2dc58c;
+     color: #000;
+     border-radius: 6px;
+     padding: 3px 8px;
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     letter-spacing: 0.7px;
+     cursor: pointer;
+}
+ .dtable-status-inactive {
+     font-size: 13px;
+     background-color: rgba(223,60,78,0.5);
+     border: 2px solid #df3c4e;
+     color: #000;
+     border-radius: 6px;
+     padding: 3px 8px;
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     letter-spacing: 0.7px;
+}
+ .dtable-status-pending {
+     font-size: 13px;
+     background-color: rgba(242,188,22,0.5);
+     border: 2px solid #f2bc16;
+     color: #000;
+     border-radius: 6px;
+     padding: 3px 8px;
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     letter-spacing: 0.7px;
+}
+ .dtable-status-nostat {
+     font-size: 13px;
+     background-color: rgba(128,128,128,0.5);
+     border: 2px solid #808080;
+     color: #000;
+     border-radius: 6px;
+     padding: 3px 8px;
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     letter-spacing: 0.7px;
+}
+ .dtable-status-viewfile {
+     font-size: 13px;
+     background-color: rgba(89,54,228,0.5);
+     border: 2px solid #5936e4;
+     color: #000;
+     border-radius: 6px;
+     padding: 5px 16px;
+     text-align: center;
+     font-weight: 500;
+     text-transform: capitalize;
+     letter-spacing: 0.7px;
+     cursor: pointer;
+}
+ .dtable-status-viewfile:hover {
+     background-color: #4c2dc7;
+     color: #fff;
+}
+ .sifu-view-page table tr, .sifu-view-page table td {
+     white-space: nowrap;
+}
+ .sifu-view-page table {
+     text-align: center !important;
+     border: 1px solid #ddd !important;
+}
+ .sifu-view-page .dataTable-top {
+     display: none;
+}
+.dataTable-container {
+  width: 100%;
+}
+.dt-buttons button {
+  background: transparent !important;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+}
+.dt-buttons {
+  margin-bottom: 10px;
+  float: right !important;
+}
+ .sifu-view-page table thead {
+     background: #000 !important;
+     color: #fff !important;
+}
+ .sifu-view-page table thead th {
+     font-weight: 500 !important;
+     padding: 15px 10px !important;
+     font-size: 14px !important;
+     letter-spacing: 0.3px !important;
+     text-transform: uppercase !important;
+     background: #000 !important;
+}
+ .sifu-view-page table tbody td {
+     font-size: 14px !important;
+     color: #333 !important;
+     padding: 12px !important;
+     text-align: center !important;
+     vertical-align: middle;
+}
+ .sifu-view-page table tbody tr:nth-child(2n) {
+     background-color: #f6f6f6 !important;
+}
+ .btn-cdownload {
+     font-size: 22px;
+}
+ .fc-event-title-container {
+     color: #fff !important;
+}
+ .fc .fc-toolbar.fc-header-toolbar .fc-dayGridMonth-button, .fc .fc-toolbar.fc-header-toolbar .fc-timeGridWeek-button, .fc .fc-toolbar.fc-header-toolbar .fc-timeGridDay-button, .fc .fc-toolbar.fc-header-toolbar .fc-listWeek-button {
+     color: #fff !important;
+}
+ .input-group .btn {
+     width: 100%;
+}
+ .fc-h-event {
+     background-color: #304bd4;
+     border: none;
+}
+ .tableper-row {
+     margin: -10px -15px 10px -15px;
+}
+ .tableper-row::after {
+     content: '';
+     border: 1px solid #eee;
+     width: 100%;
+     margin: 5px;
+}
+ .dtable-modal {
+     background: rgba(0,0,0,0.4);
+}
+ .dtable-modal .modal-content {
+     border: none;
+     border-radius: 10px;
+     overflow: hidden;
+     white-space: initial;
+}
+ .dtable-modal h5.modal-title {
+     font-size: 20px;
+     font-weight: bold !important;
+     text-transform: uppercase;
+     text-align: center !important;
+     margin: 0 auto;
+     color: #000;
+}
+ .dtable-modal .modal-header .close {
+     background: #000;
+     border: 0px;
+     color: #fff;
+     border-radius: 20px;
+     padding: 0px 9px;
+     font-size: 20px;
+}
+ .dtable-modal .modal-body form label {
+     display: flex;
+     font-weight: 500;
+}
+ .dtb-tooltip {
+     position: relative;
+}
+ .dtb-tooltip:hover::after {
+     content: attr(dtb-tooltip);
+     position: absolute;
+     bottom: calc(100% + 5px);
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 3px 8px;
+     background-color: #333;
+     color: #fff;
+     border-radius: 4px;
+     white-space: nowrap;
+     font-size: 12px;
+}
+ .dtb-tooltip:hover::before {
+     content: '';
+     position: absolute;
+     bottom: calc(100% + -5px);
+     left: 50%;
+     transform: translateX(-50%);
+     border-width: 5px;
+     border-style: solid;
+     border-color: #333 transparent transparent transparent;
+}
+ .dtb-tooltip[title] {
+     position: relative;
+     color: transparent;
+}
+ .view-sindetails {
+     padding: 5px 0px 20px;
+     margin: 0;
+}
+ .view-sindetails .details-item {
+     background: #f6f6f6;
+     padding: 5px 15px;
+     text-align: center;
+     border-right: 5px solid #fff;
+     font-size: 14px;
+}
+ .view-sindetails .details-item:last-child {
+     border: none !important;
+}
+ .view-sindetails .details-item .item-title {
+     margin-bottom: 0;
+}
+ .sifu-aed-page .iti {
+     display: block;
+}
+ .sifu-aed-page .row .form-group {
+     margin-bottom: 15px !important;
+}
+ .sifu-aed-page h3 {
+     font-size: 20px !important;
+     padding: 0px 0px 20px;
+     font-family: inherit !important;
+     font-weight: 600 !important;
+}
+ .sifu-aed-page h3::after {
+     content: "";
+     width: 5%;
+     height: 3px;
+     background: #ddd;
+     position: absolute;
+     margin-top: 8px;
+     display: block;
+}
+ .sifu-view-template {
+     overflow: hidden;
+}
+.sifu-view-page .row .form-group {
+     margin-bottom: 15px !important;
+}
+ .sifu-view-page h3 {
+     font-size: 20px !important;
+     padding: 20px 0px;
+     font-family: inherit !important;
+     font-weight: 600 !important;
+     color: #000;
+}
+ .sifu-view-page h3::after {
+     content: "";
+     width: 5%;
+     height: 3px;
+     background: #ddd;
+     position: absolute;
+     margin-top: 8px;
+     display: block;
+}
+ .sifu-view-template .details-item {
+     background: #f6f6f6;
+     padding: 5px 20px;
+     text-align: center;
+     border-right: 5px solid #fff;
+     margin-bottom: 5px;
+     font-size: 14px;
+}
+ .auto-cremovebtn {
+     background: red;
+     color: #fff;
+     margin: 0 auto;
+     text-align: center;
+     padding: 3px 9px;
+     display: block;
+     margin-top: 6px;
+}
+ .auto-cremovebtn:hover {
+     background: black;
+     color: #fff;
+}
+ .auto-caddbtn {
+     display: block;
+     float: inline-end;
+     color: #fff;
+     border: none;
+     padding: 8px 20px;
+}
+ .sifu-view-table {
+     text-align: center !important;
+     border: 1px solid #ddd;
+     white-space: nowrap;
+     margin: 0;
+}
+ .sifu-view-table thead {
+     background: #000;
+     color: #fff;
+}
+ .sifu-view-table thead th {
+     font-weight: 500;
+     padding: 15px 10px;
+     font-size: 14px;
+     letter-spacing: 0.3px;
+     text-transform: uppercase;
+}
+ .sifu-view-table tbody td {
+     font-size: 14px;
+     color: #333;
+     padding: 12px;
+}
+ .sifu-view-table tbody tr:nth-child(2n) {
+     background-color: #f6f6f6;
+}
+ article.tab_content {
+     min-width: 100%;
+}
+ .tabs li.active {
+     border-bottom: 3px solid #a39e9e;
+}
+ .tabs li.active a{
+     color: #666 !important;
+}
+ .tabs li a {
+     padding: 5px 0px;
+     margin: 0 20px;
+}
+ .dcard-status {
+     display: flex;
+}
+ .dcard-status .col-md-8 img {
+     background: #000;
+     padding: 5px;
+     border-radius: 80px;
+     width: 100%;
+     z-index: 1;
+     position: relative;
+     border: 5px solid #ccc;
+     box-shadow: 0px 0px 15px #ddd;
+     height: 130px;
+     max-width: 130px;
+}
+ .dcard-status::after {
+     content: '';
+     width: 100%;
+     height: 1px;
+     display: block;
+     position: absolute;
+     background: #ddd;
+     margin-top: 60px;
+     left: 0;
+}
+ .sifu-dashboard-page .card {
+     box-shadow: 0px 0px 15px #f1f1f1 !important;
+     padding: 0px !important;
+}
+ .sifu-dashboard-page .col-4 .list-group {
+     padding-top: 20px;
+}
+ .sifu-dashboard-page .col-4 .list-group li {
+     padding: 8px 0;
+     font-weight: 500;
+     font-size: 16px;
+}
+ .dcard-status .col-md-4 p {
+     margin-top: 10px;
+}
+ .sifu-dashboard-page .col-4 .list-group li .image img {
+     width: 7%;
+     border-radius: 50px;
+     padding: 2px;
+     margin-right: 5px;
+}
+ .sifu-dashboard-page .col-4 .list-group li:nth-child(1) .image img {
+    /*border: 2px solid #f9bc01;
+    */
+     background: rgba(235, 157, 162,0.8);
+}
+ .sifu-dashboard-page .col-4 .list-group li:nth-child(2) .image img {
+    /*border: 2px solid #d1ea2c;
+    */
+     background: rgba(240, 184, 132,0.8);
+}
+ .sifu-dashboard-page .col-4 .list-group li:nth-child(3) .image img {
+    /*border: 2px solid #0392ce;
+    */
+     background: rgba(232, 230, 165,0.8);
+}
+ .sifu-dashboard-page .col-4 .list-group li:nth-child(4) .image img {
+    /*border: 2px solid #a900df;
+    */
+     background: rgba(187, 232, 181,0.8);
+}
+ .sifu-dashboard-page .col-4 .list-group li:nth-child(5) .image img {
+    /*border: 2px solid #ff7333;
+    */
+     background: rgba(172, 187, 232,0.8);
+}
+ .sifu-dashboard-page .col-4 .list-group li:nth-child(6) .image img {
+    /*border: 2px solid #755c50;
+    */
+     background: rgba(197, 172, 232,0.8);
+}
+ .sifu-view-ulli li {
+     display: flex;
+}
+ .sifu-view-ulli li span {
+     width: 100%;
+     background: #eee;
+     display: block;
+     padding: 15px 10px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+     text-align: center;
+     font-weight: 500;
+}
+ .sifu-view-dashtable {
+     border: 1px solid #ddd;
+}
+ .sifu-view-dashtable tr th {
+     font-size: 14px;
+     color: #fff;
+     background: #000;
+     text-align: center;
+}
+ .sifu-view-dashtable thead {
+     background: #000;
+     color: #fff;
+}
+ .sifu-view-dashtable thead th {
+     font-weight: 500;
+     padding: 15px 10px;
+     font-size: 14px;
+     letter-spacing: 0.3px;
+     text-transform: uppercase;
+}
+ .sifu-view-dashtable tbody td {
+     font-size: 14px;
+     color: #333;
+     padding: 12px;
+     text-align: center;
+}
+ .sifu-view-dashtable tbody tr:nth-child(2n) {
+     background-color: #f6f6f6;
+}
+ .sifu-view-ulli li span:last-child {
+     margin-right: 0;
+}
+ .sifu-dashboard-page h3 {
+     font-size: 20px !important;
+     padding: 0px;
+     font-family: inherit !important;
+     font-weight: 600 !important;
+     margin-top: 20px;
+     text-transform: uppercase;
+     margin-bottom: -10px;
+}
+ .sifu-dashboard-page .tab_content {
+     padding: 0px;
+}
+ .sifu-dashboard-page h3::after {
+     content: "";
+     width: 5%;
+     height: 3px;
+     background: #ddd;
+     position: absolute;
+     margin-top: 8px;
+     display: block;
+}
+ .sifu-dashboard-page h6 {
+     font-size: 14px;
+     text-transform: uppercase;
+     font-weight: bold !important;
+     letter-spacing: 0.5;
+     margin-bottom: 15px;
+     margin-top: 15px;
+}
+ .sifu-dashboard-page ul.tabs {
+     display: flex;
+     background: #fff;
+     border-radius: 10px 10px 0px 0px;
+     box-shadow: 0px 0px 15px #f1f1f1 !important;
+     border: 1px solid #e8e7ec;
+}
+ .sifu-dashboard-page .tabs-7 .tab_content_wrapper .card {
+     border-radius: 0px 0px 10px 10px;
+}
+ .sifu-dashboard-page ul.tabs li {
+     width: 100%;
+     text-align: center;
+     padding: 10px 0px;
+     font-size: 14px;
+}
+ .sifu-dashboard-page ul.tabs li a {
+     color: #333;
+     font-weight: 600;
+     letter-spacing: 0.5px;
+     text-transform: uppercase;
+     font-size: 14px;
+}
+ .sifu-dashboard-page ul.tabs li.active {
+     border-color: #000;
+}
+ .dashboard-subjects-view h6 {
+     margin-top: 0px;
+}
+ .dashboard-subjects-view ul li {
+     width: 100%;
+     margin-top: 5px;
+}
+ .dashboard-subjects-view ul li a {
+     width: 100%;
+     background: #eee !important;
+     padding: 15px;
+     font-size: 14px;
+     border-radius: 0px;
+}
+ .dashtooltip {
+     position: relative;
+     opacity: 1 !important;
+}
+ .dashtooltip .dashtooltiptext {
+     visibility: hidden;
+     width: 250px;
+     background-color: #fff;
+     color: #787c9e;
+     padding: 8px;
+     position: absolute;
+     z-index: 1;
+     top: 0px;
+     left: 100%;
+     box-shadow: 0px 0px 2px 0px #b1b1b160;
+     line-height:1.1;
+     font-size:12px;
+}
+ .dashtooltip .dashtooltiptext::after {
+     content: "";
+     position: absolute;
+     top: 70%;
+     right: 100%;
+     margin-top: -5px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: transparent #fff transparent transparent;
+}
+ .dashtooltip:hover .dashtooltiptext {
+     visibility: visible;
+     z-index: 9999;
+}
+ .dashtooltip .icon {
+     width: 40px;
+     float: right;
+}
+ .view-tabdetails {
+     width: 100%;
+     display: flex;
+     margin: 0px;
+}
+ .view-tabdetails .details-item {
+     background: #eee;
+     margin-left: 5px;
+     padding: 10px 0;
+     width: 100%;
+}
+ .view-tabdetails .item-title {
+     margin-bottom: 3px !important;
+}
+ .sifu-view-cdashtable {
+     border: 1px solid #ddd;
+}
+ .sifu-view-cdashtable tr th {
+     font-size: 14px;
+     color: #fff;
+     background: #000;
+     text-align: center;
+}
+ .sifu-view-cdashtable thead {
+     background: #000;
+     color: #fff;
+}
+ .sifu-view-cdashtable thead th {
+     font-weight: 500;
+     padding: 15px 10px;
+     font-size: 14px;
+     letter-spacing: 0.3px;
+     text-transform: uppercase;
+}
+ .sifu-view-cdashtable tbody td {
+     font-size: 14px;
+     color: #333;
+     padding: 12px;
+     text-align: center;
+     vertical-align: middle;
+}
+ .sifu-view-cdtr .list-group li {
+     display: grid;
+     background: #eee !important;
+     width: 100%;
+     margin-bottom: 5px;
+     padding: 8px 10px;
+}
+ .sifu-view-cdtr .list-group li .text {
+     font-weight: 600;
+}
+ .sifu-view-cdtr .list-group li span {
+     color: #444;
+}
+ .sifu-view-cdashtable .sifu-view-cdtr {
+     background: #f1f1f1;
+}
+ .sifu-descr {
+     max-height: 45px;
+     min-height: 30px !important;
+}
+.sifu-view-page h3 {
+  margin-top: 0px;
+}
+
+.sifu-view-page .sifu-remove-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+.nk-block-head h2.nk-block-title {
+  font-size: 22px;
+  font-weight: 600 !important;
+  color: #000;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: #000;
+  letter-spacing: 0.1px;
+}
+
+.dview-status-viewfile {
+  color: #5936e4 !important;
+}
+
+.view-sindetails .details-item .fa {
+  background: #ccc;
+  color: #000 !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sifu-view-page .iti, .sifu-aed-page .iti {
+    display: block !important;
+}
+
+.sifu-view-page .bg-citem .form-group {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.sifu-view-page label {
+  color: #000 !important;
+}
+
+.sifu-view-page .card-body .nk-block-head {
+  margin-bottom: 15px;
+}
+
+.view-ans .item-ans {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.view-ans .text-question {
+  font-size: 16px;
+}
+.view-ans .list-answeres li label {
+  font-size: 14px !important;
+}
+.sstab-name {
+  margin-top: 8px;
+}
+.sstab-name h2 {
+  font-size: 20px;
+  color: #000;
+}
+.tableper-row .btn {
+  color: #fff;
+}
+#cke_editor1 {
+  width: 100% !important;
+}
+/*.headwtb {
+    position: relative;
+    top: 55px;
+    margin-top: -55px;
+}*/
+.cstats-row .card {
+  padding: 20px !important;
+  border-radius: 20px;
+  border: 0px;
+}
+.cstats-row .card .tile-number, .cstats-row .card .display-4 {
+  font-size: 28px !important;
+  font-weight: bold;
+  color: #fff;
+}
+.cstats-row .card h6.m-0 {
+  color: #fff;
+  font-size: 20px;
+}
+.cstats-row .card .tile-description, .cstats-row .card .m-0 {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+.dtable-modal h3 {
+  margin-bottom: 0;
+}
+.cusers-roles h4 {
+  font-weight: 600 !important;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 15px;
+  margin-top: 10px !important;
+}
+.cusers-roles .col-md-3 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+.cusers-roles .col-md-3:last-child {
+  border: none;
+}
+.checkbox.style-e {
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 5px;
+}
+.checkbox.style-e input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox.style-e input:checked ~ .checkbox__checkmark {
+  background-color: #2dc58c;
+}
+.checkbox.style-e input:checked ~ .checkbox__checkmark:after {
+  left: 21px;
+}
+.checkbox.style-e:hover input ~ .checkbox__checkmark {
+  background-color: #ccc;
+}
+.checkbox.style-e:hover input:checked ~ .checkbox__checkmark {
+  background-color: #2dc58c;
+}
+.checkbox.style-e .checkbox__checkmark {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 22px;
+  width: 40px;
+  background-color: #ccc;
+  transition: background-color 0.25s ease;
+  border-radius: 11px;
+}
+.checkbox.style-e .checkbox__checkmark:after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: left 0.25s ease;
+}
+.checkbox.style-e .checkbox__body {
+  color: #000;
+  line-height: 1.4;
+  font-size: 14px;
+  transition: color 0.25s ease;
+}
+.cke_notifications_area {
+  display: none;
+}
+.choices__input.choices__input--cloned, .choices__input.choices__input--cloned:focus {
+  border: none !important;
+}
+.choices__item--selectable br {
+    display: none;
+}
+.select2-container--default .select2-selection--single {
+  background-color: #fff;
+  border: 1px solid #d2d2d2 !important;
+  border-radius: 5px !important;
+  padding: 8px 8px 7px !important;
+  height: auto !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  box-sizing: border-box !important;
+  height: 0.5vw !important;
+  width: 0.48vw !important;
+  box-sizing: border-box !important;
+  border-style: solid !important;
+  border-color: #000 !important;
+  border-width: 0px 1px 1px 0px !important;
+  transform: rotate(45deg) !important;
+  transition: border-width 150ms ease-in-out !important;
+  position: relative !important;
+  display: block !important;
+  margin: 0px !important;
+  left: 0px !important;
+  top: 55% !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  font-weight: normal !important;
+  font-size: 18px !important;
+}
+.select2-container {
+  width: 100% !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  font-size: 0.85rem !important;
+  color: #000 !important;
+}
+ @media (max-width: 1600px) {
+     .tableper-row .input-group {
+         display: block;
+    }
+     .tableper-row .input-group input, .tableper-row .input-group select {
+         width: 100%;
+         border-radius: 5px !important;
+    }
+     .tableper-row .input-group label, .tableper-row .input-group span {
+         padding: 0px;
+         background: transparent;
+         border: none;
+    }
+     .tableper-row .input-group .btn {
+         margin-top: 24px;
+         padding: 9px !important;
+    }
+     .sifu-dashboard-page ul.tabs li a {
+         color: #333;
+         font-weight: 600;
+         letter-spacing: 0.3px;
+         text-transform: uppercase;
+         font-size: 12px;
+    }
+     .sifu-dashboard-page .col-4 .list-group li {
+         padding: 8px 0;
+         font-weight: 500;
+         font-size: 14px;
+    }
+}
+ @media (max-width: 1440px) {
+     .dcard-status::after {
+         margin-top: 50px;
+    }
+     .dcard-status .col-md-4 p {
+         margin-top: 0px;
+    }
+     .sifu-dashboard-page .col-4 .list-group {
+         padding-top: 10px;
+    }
+     .dcard-status .col-md-8 img {
+         width: 100%;
+         z-index: 9;
+         max-width: 120px;
+         height: 120px;
+    }
+     .sifu-dashboard-page .col-4 .list-group li .image img {
+         width: 12%;
+         border-radius: 50px;
+         padding: 3px;
+         margin-right: 5px;
+    }
+}
+ @media (max-width: 1280px) {
+     .sifu-dashboard-page .col-4, .sifu-dashboard-page .col-8 {
+         width: 100%;
+    }
+     .dcard-status .col-md-8 img {
+         width: 100%;
+         z-index: 9;
+         max-width: 100px;
+         height: 100px;
+    }
+     .sifu-dashboard-page .col-4 .list-group li .image img {
+         width: 6%;
+    }
+     .dashtooltip .dashtooltiptext {
+         left: 0%;
+         right: 0%;
+    }
+     .dashtooltip .dashtooltiptext::after {
+         content: "";
+         position: absolute;
+         top: 70%;
+         left: 100%;
+         margin-top: -20px;
+         border-width: 5px;
+         border-style: solid;
+         border-color: transparent transparent transparent #ddd;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+      height: 0.8vw !important;
+      width: 0.8vw !important;
+    }
+}
+ @media (max-width: 768px) {
+     .nk-quick-nav .d-sm-none {
+         display: none;
+    }
+     .sifu-view-page .fc .fc-toolbar.fc-header-toolbar .fc-button {
+         width: 100% !important;
+    }
+     .fc .fc-toolbar.fc-header-toolbar .fc-button::before {
+         content: '' !important;
+    }
+     .tableper-row .input-group .btn {
+         margin-top: 0px;
+         padding: 9px !important;
+    }
+     .sifu-dashboard-page .col-4, .sifu-dashboard-page .col-8 {
+         width: 100%;
+    }
+     .sifu-view-page table thead th {
+         padding: 15px 20px;
+    }
+    .headwtb {
+        position: relative;
+        top: 0px;
+        margin-top: 0px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+      height: 0.8vw !important;
+      width: 0.8vw !important;
+    }
+}
+ @media (max-width: 600px) {
+     .sifu-dashboard-page ul.tabs {
+         display: none;
+    }
+     .accordion_tabs {
+         display: block;
+         margin-left: 15px;
+         width: 100%;
+    }
+     .sifu-dashboard-page .tabs-7 .accordion_tabs {
+         background: #fff;
+         margin-bottom: -1px;
+         padding: 20px !important;
+         text-align: center;
+         font-weight: 600;
+         letter-spacing: 0.5;
+         text-transform: uppercase;
+         border: 1px solid #e8e7ec;
+         z-index: 999;
+         position: relative;
+         margin-left: 0px;
+         color: #000;
+    }
+     .sifu-dashboard-page .tabs-7 .accordion_tabs {
+         color: #666;
+    }
+     .sifu-dashboard-page .tabs-7 article.tab_content {
+         padding: 0px;
+    }
+     .sifu-dashboard-page .tab_content_wrapper {
+         overflow: inherit;
+    }
+     .sifu-dashboard-page .tabs-7 {
+         width: 100% !important;
+    }
+     .dcard-status .col-md-8 img {
+         width: 100%;
+         z-index: 9;
+         padding: 8px;
+         max-width: 100px;
+         height: 100px;
+    }
+     .sifu-dashboard-page .col-4 .list-group li .image img {
+         width: 10%;
+    }
+     .dcard-status .col-md-4 {
+         width: 60%;
+    }
+     .dcard-status .col-md-8 {
+         width: 100%;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+      height: 1.3vw !important;
+      width: 1.3vw !important;
+    }
+}

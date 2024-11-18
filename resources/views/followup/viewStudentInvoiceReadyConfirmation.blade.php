@@ -1,0 +1,158 @@
+@extends('layouts.main')
+
+@section('content')
+
+<style>
+    .progress .progress-bar{
+        height:4px;
+    }
+    .row-details{
+        border-bottom:1px solid grey;
+    }
+     td, th strong{
+        font-size:14px !important;
+        margin-bottom:5px;
+    }
+    .nk-block-head-content h2{
+        padding-left:15px;
+    }
+</style>
+
+<div style="padding-top:100px;" class="container">
+    
+        <div class="nk-content">
+                  <div class="fluid-container">
+                     <div class="nk-content-inner">
+                        <div class="nk-content-body">
+                           <div class="nk-block-head">
+                              <div class="nk-block-head-between flex-wrap gap g-2">
+                                 <div class="nk-block-head-content">
+                                    <h2 class="nk-block-title">
+                                    Student Invoice </h2>
+                                    <nav>
+                                       <ol class="breadcrumb breadcrumb-arrow mb-0">
+                                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                          <li class="breadcrumb-item"><a href="#">Invoice</a></li>
+                                          <li class="breadcrumb-item active" aria-current="page">Student Invoice</li>
+                                       </ol>
+                                    </nav>
+                                 </div>
+                                 <div class="nk-block-head-content">
+                                    <ul class="d-flex">
+                                       
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="nk-block">
+                              <div class="card">
+                                 <div class="nk-invoice">
+                                    <div class="nk-invoice-head flex-column flex-sm-row">
+                                       <div class="nk-invoice-head-item mb-3 mb-sm-0">
+                                          <div class="nk-invoice-brand mb-1">
+                                             <img style="width:250px;" src="https://sifututor.odits.co/dev/template/login.png"/>
+                                          </div>
+                                          <ul>
+                                             <!--<li>info@company.com</li>-->
+                                             <!--<li>(120) 456 789</li>-->
+                                          </ul>
+                                       </div>
+                                       <div class="nk-invoice-head-item text-sm-end">
+                                           <h1>Student Invoice</h1>
+                                          <div class="text"><strong>Invoices No: # </strong>{{$invoice_detail->id}}</div>
+                                          <ul>
+                                             <li class="text"><strong> Issue Date: </strong>@php echo date('d-m-Y') @endphp</li>
+                                             <!--<li>Due Date: 26 Oct 2022</li>-->
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    
+                                    <div class="nk-invoice-body">
+                                       <div class="table-responsive">
+                                          <table class="table nk-invoice-table">
+                                             <thead class="table-dark">
+                                                <tr>
+                                                   <th class="tb-col"><span class="overline-title">Student Name</span></th>
+                                                   <th class="tb-col"><span class="overline-title">Subject</span></th>
+                                                   <th class="tb-col"><span class="overline-title">Hours</span></th>
+                                                   <th class="tb-col"><span class="overline-title">Price</span></th>
+                                                   <th class="tb-col"><span class="overline-title">total</span></th>
+                                                </tr>
+                                             </thead>
+                                             <tbody>
+                                                 
+                                                 
+                                                    <tr>
+                                                        <td class="tb-col"><span>
+                                                           {{$students->full_name}}
+                                                        
+                                                        </span></td>
+                                                        <td class="tb-col"><span>
+                                                           {{$subjects->name}}
+                                                        </span></td>
+                                                        <td class="tb-col"><span>
+                                                           {{count($invoice_items)}}
+                                                           
+                                                           </span></td>
+                                                        <td class="tb-col"><span>{{$invoice_detail->invoiceTotal}} </span></td>
+                                                        <td class="tb-col">
+                                                            <span>
+                                                                {{$invoice_detail->invoiceTotal}}
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                
+                                              
+                                                
+                                             </tbody>
+                                             <tfoot class="table-dark">
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                   <td></td>
+                                                   <td>Total:</td>
+                                                   <td></td>
+                                                </tr>
+                                             </tfoot>
+                                          </table>
+                                       </div>
+                                    </div>
+                                    
+                                    <div class="nk-invoice-head flex-column flex-sm-row">
+                                      
+                                    <table class="table table-responsive no-border">
+                                        <tbody>
+                                            <tr>
+                                            <td><strong>Payer Name: </strong> {{$invoice_detail->payerName}}</td>
+                                            <td><strong>Payer Email: </strong> {{$invoice_detail->payerEmail}}</td>
+                                            <td><strong>Payer Phone Number: </strong> {{$invoice_detail->payerPhone}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"><strong>Management Remark: </strong>  {{$invoice_detail->remarks}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"><strong>Customer Remark: </strong>  {{$invoice_detail->customerRemark}}</td>
+                                            </tr>
+                                            <!--<tr>-->
+                                            <!--    <td colspan="3"><strong>Customer Remark: </strong>  1) This invoice is computer generated and no signature is required-->
+                                            <!--    <br>2) Payment is due within 3 working days of issuance of this invoice-->
+                                            <!--    <br>3) You can pay online via online banking by clicking the button PAY NOW or alternatively can transfer to account no below :    -->
+                                            <!--    <br>-->
+                                            <!--    <br>MAYBANK - 562115516678    SIFU EDU &amp; LEARNING SDN BHD   </td>-->
+                                            <!--</tr>-->
+                                        </tbody>
+                                    </table>
+                    
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+          
+          </div>
+
+@endsection
+
